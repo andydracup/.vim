@@ -1,6 +1,7 @@
 "
 " VIM
 " 
+execute pathogen#infect()
 set nocompatible
 syntax on
 filetype plugin on
@@ -18,7 +19,6 @@ set nowb
 set visualbell
 set backspace=indent,eol,start " make backspace more flexible
 set completeopt=menuone
-nmap <F8> :TagbarToggle<CR>
 set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
 set laststatus=2
 set clipboard=unnamed
@@ -40,6 +40,6 @@ set autoindent
 set smartindent
 set smarttab
 "
-" Dark background
+" Background and colors
 "
 set background=dark
