@@ -36,7 +36,7 @@ noremap <Leader>tb :TagbarToggle <CR>
 set shiftwidth=4
 set tabstop=4
 set expandtab
-set autoindent
+set noautoindent
 set smartindent
 set smarttab
 "
