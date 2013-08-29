@@ -43,3 +43,7 @@ set smarttab
 " Background and colors
 "
 set background=dark
+"
+" Path
+"
+set path=$PWD/**;
