@@ -1,5 +1,5 @@
 "
-" VIM
+" VIM rc.
 " 
 execute pathogen#infect()
 set nocompatible
