@@ -24,13 +24,6 @@ set laststatus=2
 set clipboard=unnamed
 set nolist
 "
-" Leader key mappings
-"
-let mapleader=","
-noremap <Leader>q :wq <CR>
-noremap <Leader>s :w <CR>
-noremap <Leader>tb :TagbarToggle <CR>
-"
 " Indentation
 "
 set shiftwidth=4
@@ -43,7 +36,16 @@ set smarttab
 " Background and colors
 "
 set background=dark
+colorscheme solarized
 "
 " Path
 "
 set path=$PWD/**;
+"
+" Leader key mappings
+"
+let mapleader=","
+noremap <Leader>q :wq <CR>
+noremap <Leader>s :w <CR>
+noremap <Leader>tb :TagbarToggle <CR>
+noremap <Leader>n :NERDTreeToggle <CR>
