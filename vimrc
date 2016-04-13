@@ -38,7 +38,7 @@ set smarttab
 " Background and colors
 "
 set background=dark
-colorscheme solarized
+colorscheme desert
 set t_Co=256
 
 "
